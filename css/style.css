@@ -136,6 +136,29 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: #000;
 }
+#intro-div{
+  padding-bottom: 5px;
+}
+#intro_image{
+width: 30%;
+height: 50%;
+background-position: center;
+ background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25px;
+}
+#intro-text{
+  letter-spacing: 1px;
+  float: right;
+  width: 900px;
+  height: 50%;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+ }
 
 #intro .carousel-item {
   width: 100%;
@@ -608,11 +631,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-Programs h4 a {
-  color: #fff;
+  color: #18d26e;
 }
 
 #featured-Programs h4 a:hover {
-  color: #18d26e;
+  color: #fff;
 }
 
 #featured-Programs p {
