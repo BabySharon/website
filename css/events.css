@@ -1,0 +1,62 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+
+}
+
+.img__description {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:white;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 0.88;
+}
+
+.about-col h2 {
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0;
+  margin: 40px 0 12px 0;
+
+}
+#location-text{
+  margin-left: 10%;
+  position: center;
+}
+#location-image{
+height: 99%;
+}
+
+#location
+{
+    background: rgba(255, 255, 255, 0.92);
+
+
+}
+#speakers{
+    background: rgba(255, 255, 255, 0.92);
+
+}
