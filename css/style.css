@@ -136,8 +136,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: #000;
 }
-#intro-div{
+#intro-featured-Programs-container{
   padding-bottom: 5px;
+  height: 100vh;
 }
 #intro_image{
 width: 30%;
@@ -863,7 +864,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action h3 {
-  color: #fff;
+  color: #333;
   font-size: 28px;
   font-weight: 700;
 }
@@ -884,7 +885,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.5s;
   margin-top: 10px;
   border: 2px solid #fff;
-  color: #fff;
+  color: #333;
 }
 
 #call-to-action .cta-btn:hover {
@@ -1307,6 +1308,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #contact {
   padding: 60px 0;
+
 }
 
 #contact .contact-info {
